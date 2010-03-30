@@ -1,0 +1,8 @@
+<windowslivelogin>
+  <appid>0000000000000000</appid>
+  <secret>00000000000000000000000000000000</secret>
+  <securityalgorithm>wsignin1.0</securityalgorithm>
+
+  <returnurl>http://www.yoursite.com/contacts/windows_live/login/</returnurl>
+  <policyurl>http://www.yoursite.com/contacts/windows_live/policy/</policyurl>
+</windowslivelogin>
