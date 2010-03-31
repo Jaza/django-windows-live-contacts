@@ -69,6 +69,7 @@ def test_page(request):
     windows_live_state = windows_live_get_state(request, wll)
     
     return render_to_response('test_page.html', {
+        'wll': wll,
         'windows_live_state': windows_live_state,
         'windows_live_contacts': windows_live_contacts
     }, context_instance=RequestContext(request))
